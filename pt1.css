@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body {
+    background: #1F1F1F;
+    width: 99vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headings {
+    color: #fff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 3px 2px #000;
+}
+.headings h2, h3, p {
+    padding: 10px
+}
+img {
+    width: 300px;
+    height: 250px;
+    padding-top: 30px;
+}
+.buttons {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 30px
+}
